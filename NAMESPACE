@@ -3,6 +3,7 @@ export(
 	"teacher_covars",
 	"resMGP",
 	"teacher_MeanGP",
+	"teacher_MedianGP",
 	"get_AE"
 )
 
