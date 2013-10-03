@@ -5,7 +5,7 @@ Date: 2013-03-26
 Author: Ben Domingue <ben.domingue@gmail.com>
 Maintainer: Ben Domingue <ben.domingue@gmail.com>
 Depends: R (>= 2.1.0)
-Suggests: 
+Suggests: SGP
 Description: A collection of helper functions to help with DPS growth analyses.
 LazyData: No
 License: GPL (>= 2)
