@@ -6,10 +6,10 @@ teacher_MeanGP<-function(stud, #this is meant to be applied to a list where data
                          CI.type="other",
                          bootstrap.options=NULL #for confidence interval, this will be the quantiles; for effect sizes, it will just be a percentage.
                       ) {
-  if (is.null(wt)) rep(1,nrow(stud))->wt
   stud[[sgp.col.name]]->stud$GrowthPercentile
   #mgp
   stud[!is.na(stud$GrowthPercentile),]->stud
+  if (is.null(wt)) rep(1,nrow(stud))->wt
   weighted.mean(stud$GrowthPercentile,wt)->mgp
   switch(CI.type,
          "confidence interval"={
