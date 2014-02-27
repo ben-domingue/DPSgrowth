@@ -5,7 +5,7 @@
   if (user!="") {
     switch(user,
            bd={
-             setwd("~/Dropbox/DPSvam/int/data")
+             setwd("/home/bd/Dropbox/DPSvam/int/data")
            },
            domingue={
              setwd("~/dps/data")
